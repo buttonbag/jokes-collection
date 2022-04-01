@@ -1,0 +1,34 @@
+$pink: #f65c5c;
+$gray: #37342b;
+$blue: #286275;
+$yellow: #ffc738;
+$red: #963737;
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	background-color: $gray;
+}
+
+.main {
+	max-width: 414px;
+	margin: 0 auto;
+	background-color: white;
+	padding: 1rem;
+
+	.card {
+		border-bottom: 1px solid;
+		font-size: 18px;
+		line-height: 1.3;
+		padding: 1.6rem 0;
+		margin: 0 1.6rem;
+
+		&--label {
+			font-size: 14px;
+			display: block;
+		}
+	}
+}
